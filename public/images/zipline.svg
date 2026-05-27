@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Zip line adventure">
-  <rect width="600" height="600" rx="300" fill="#e8f8ff"/>
-  <path d="M0 420 C150 320 260 345 390 420 C480 470 540 445 600 410 L600 600 L0 600Z" fill="#2f8b65"/>
-  <path d="M85 195 C250 250 390 245 535 170" fill="none" stroke="#1f2933" stroke-width="16" stroke-linecap="round"/>
-  <circle cx="335" cy="220" r="18" fill="#ffb84d"/>
-  <path d="M335 238 L315 300 M335 238 L370 292 M323 265 L275 280 M348 265 L390 245" stroke="#1d2730" stroke-width="17" stroke-linecap="round"/>
-  <path d="M130 390 L180 235 L230 390 M390 390 L450 195 L510 390" stroke="#6b4e35" stroke-width="18" stroke-linecap="round" fill="none"/>
-</svg>

@@ -327,7 +327,7 @@ i {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("/images/home.svg");
+  background-image: url("/images/home.jpeg");
   background-repeat: no-repeat;
   background-size: cover !important;
   background-position: 15% 18% !important; /* Shipped hiker safely downwards and left to completely clear the header space */
