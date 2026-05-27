@@ -30,7 +30,7 @@ const PACKAGES: TravelPackage[] = [
   {
     id: "manali",
     name: "Manali Package",
-    image: "/images/img-1.jpg",
+    image: "/images/manali.svg",
     description: "Kullu Manali Shimla has always been a very popular destination for the old, young travelers as well as newly married couples who look for cheapest Manali tour packages & Manali Honeymoon Packages to experience the perfect solitude and calmness at its best.",
     priceString: "Rs 5,999 - Rs 8,999",
     priceVal: 5999,
@@ -39,7 +39,7 @@ const PACKAGES: TravelPackage[] = [
   {
     id: "goa",
     name: "Goa Package",
-    image: "/images/img-2.jpg",
+    image: "/images/goa.svg",
     description: "The most popular beach of Goa, Baga is located close to Calangute beach, around 30 Km North of Panaji. Baga is popular for its nightlife with some very famous clubs such as Brittos, Titos and Mambos. There is also a range of water sports that you can try your hands at.",
     priceString: "Rs 7,999 - Rs 12,999",
     priceVal: 7999,
@@ -48,7 +48,7 @@ const PACKAGES: TravelPackage[] = [
   {
     id: "delhi",
     name: "Delhi Package",
-    image: "/images/img-3.jpg",
+    image: "/images/delhi.svg",
     description: "Boasting cultural diversity and rich heritage, Delhi is home to several temples, tombs, gardens, forts, museums, markets and more. We take you to some of the best spots in the city. Pick the best packages from here and enjoy the tour of Delhi with guide.",
     priceString: "Rs 2,999 - Rs 8,999",
     priceVal: 2999,
@@ -57,7 +57,7 @@ const PACKAGES: TravelPackage[] = [
   {
     id: "jaipur",
     name: "Jaipur Package",
-    image: "/images/img-4.jpg",
+    image: "/images/jaipur.svg",
     description: "We organise Jaipur & Rajasthan tours that offer incredible attractions like Forts and Palaces, Deserts, Traditional Villages, colorful cattle fairs, sacred places, camel safaris, beautiful lakes, hill stations and the people.",
     priceString: "Rs 11,999 - Rs 15,999",
     priceVal: 11999,
@@ -66,7 +66,7 @@ const PACKAGES: TravelPackage[] = [
   {
     id: "kerala",
     name: "Kerala Package",
-    image: "/images/img-5.jpg",
+    image: "/images/kerala.svg",
     description: "A trip to Kerala is always an experience through greenery to the hills and its climate. Browse through our hand-picked Kerala tour packages prepared for you. Our experts are also available to prepare customised tourism packages",
     priceString: "Rs 4,999 - Rs 9,999",
     priceVal: 4999,
@@ -75,7 +75,7 @@ const PACKAGES: TravelPackage[] = [
   {
     id: "darjeeling",
     name: "Darjeeling Package",
-    image: "/images/img-6.jpg",
+    image: "/images/darjeeling.svg",
     description: "A trip to Darjeeling will include a ride on the famous Himalayan Railway, a visit to Tiger Hill, or a tour of the stunning landscaped gardens here. Activities like hiking and boating. Do not miss out on a trip to Darjeeling Is famous Mall Road.",
     priceString: "Rs 20,000 - Rs 25,000",
     priceVal: 20000,
@@ -403,9 +403,9 @@ export default function App() {
           id="category-container"
         >
           {[
-            { id: 1, img: "/images/category-1.jpg", alt: "Bungee Jumping", title: "bungee jump", desc: "Bungee jumping is an activity that involves a person jumping from a great height while connected to a large elastic cord.", link: "https://en.wikipedia.org/wiki/Bungee_jumping" },
-            { id: 2, img: "/images/category-2.jpg", alt: "Zip Lines", title: "zip lines", desc: "A zip-line, zip line, zip-wire, or flying fox is a pulley suspended on a cable, usually made of stainless steel, mounted on a slope.", link: "https://en.wikipedia.org/wiki/Zip_line" },
-            { id: 3, img: "/images/category-3.jpg", alt: "Canoeing", title: "Canoeing", desc: "Canoeing is an activity which involves paddling a canoe with a single-bladed paddle.", link: "https://en.wikipedia.org/wiki/Canoeing" }
+            { id: 1, img: "/images/bungee.svg", alt: "Bungee Jumping", title: "bungee jump", desc: "Bungee jumping is an activity that involves a person jumping from a great height while connected to a large elastic cord.", link: "https://en.wikipedia.org/wiki/Bungee_jumping" },
+            { id: 2, img: "/images/zipline.svg", alt: "Zip Lines", title: "zip lines", desc: "A zip-line, zip line, zip-wire, or flying fox is a pulley suspended on a cable, usually made of stainless steel, mounted on a slope.", link: "https://en.wikipedia.org/wiki/Zip_line" },
+            { id: 3, img: "/images/canoeing.svg", alt: "Canoeing", title: "Canoeing", desc: "Canoeing is an activity which involves paddling a canoe with a single-bladed paddle.", link: "https://en.wikipedia.org/wiki/Canoeing" }
           ].map((cat) => (
             <motion.div 
               key={cat.id} 

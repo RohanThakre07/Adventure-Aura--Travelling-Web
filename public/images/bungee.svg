@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Bungee jumping">
+  <rect width="600" height="600" rx="300" fill="#dff5ff"/>
+  <path d="M0 440 C120 360 220 390 315 430 C410 470 500 420 600 360 L600 600 L0 600Z" fill="#1f6f55"/>
+  <path d="M120 180 L480 180" stroke="#263238" stroke-width="26" stroke-linecap="round"/>
+  <path d="M300 180 L300 300" stroke="#e34f4f" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="300" cy="327" r="26" fill="#ffc08a"/>
+  <path d="M300 354 L280 420 M300 354 L325 420 M290 372 L240 335 M310 372 L365 335" stroke="#17212b" stroke-width="18" stroke-linecap="round"/>
+  <path d="M85 205 L515 205" stroke="#5a6d7a" stroke-width="10" stroke-linecap="round"/>
+</svg>

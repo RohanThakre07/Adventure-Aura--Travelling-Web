@@ -327,7 +327,7 @@ i {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("/images/home1.jpg");
+  background-image: url("/images/home.svg");
   background-repeat: no-repeat;
   background-size: cover !important;
   background-position: 15% 18% !important; /* Shipped hiker safely downwards and left to completely clear the header space */
@@ -521,9 +521,9 @@ i {
       from(rgba(0, 0, 0, 0.5)),
       to(rgba(0, 0, 0, 0.5))
     ),
-    url("/images/footer.jpg") no-repeat;
+    url("/images/footer.svg") no-repeat;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/images/footer.jpg") no-repeat;
+    url("/images/footer.svg") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

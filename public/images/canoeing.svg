@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Canoeing">
+  <rect width="600" height="600" rx="300" fill="#dff7f6"/>
+  <path d="M0 375 C115 335 195 415 300 375 C410 330 500 385 600 350 L600 600 L0 600Z" fill="#2492a6"/>
+  <path d="M95 405 C210 455 395 455 510 405 C420 510 180 510 95 405Z" fill="#d66a3c"/>
+  <circle cx="300" cy="330" r="24" fill="#ffc08a"/>
+  <path d="M300 355 L300 405 M270 372 L330 372" stroke="#17212b" stroke-width="16" stroke-linecap="round"/>
+  <path d="M205 295 L398 475" stroke="#5b3a25" stroke-width="12" stroke-linecap="round"/>
+  <ellipse cx="180" cy="275" rx="48" ry="15" fill="#f3d27a" transform="rotate(42 180 275)"/>
+  <ellipse cx="422" cy="490" rx="48" ry="15" fill="#f3d27a" transform="rotate(42 422 490)"/>
+</svg>

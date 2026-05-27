@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" role="img" aria-label="Delhi heritage">
+  <rect width="1000" height="640" fill="#f8e4c7"/>
+  <circle cx="805" cy="115" r="65" fill="#f4b65d"/>
+  <rect x="165" y="295" width="670" height="250" fill="#c85f42"/>
+  <path d="M220 295 C250 210 330 210 360 295Z M430 295 C470 185 530 185 570 295Z M640 295 C670 210 750 210 780 295Z" fill="#b84f38"/>
+  <rect x="235" y="390" width="95" height="155" rx="48" fill="#5b2f28"/>
+  <rect x="452" y="360" width="96" height="185" rx="48" fill="#5b2f28"/>
+  <rect x="670" y="390" width="95" height="155" rx="48" fill="#5b2f28"/>
+  <path d="M0 545 L1000 545 L1000 640 L0 640Z" fill="#dbb082"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" role="img" aria-label="Darjeeling tea hills">
+  <rect width="1000" height="640" fill="#d9f0ff"/>
+  <path d="M0 360 210 170 380 355 545 135 760 360 920 235 1000 325 1000 640 0 640Z" fill="#476a7e"/>
+  <path d="M545 135 640 235 760 360 630 280Z" fill="#f5fbff"/>
+  <path d="M0 475 C230 390 425 450 610 490 C775 525 885 465 1000 435 L1000 640 L0 640Z" fill="#3f8a45"/>
+  <path d="M0 545 C180 505 370 535 545 560 C735 590 850 540 1000 510" fill="none" stroke="#b4d36a" stroke-width="24"/>
+  <path d="M100 510 C260 470 410 500 560 535 C710 570 840 520 950 495" fill="none" stroke="#b4d36a" stroke-width="18"/>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" role="img" aria-label="Jaipur palace">
+  <rect width="1000" height="640" fill="#f9d7bf"/>
+  <path d="M120 260 H880 V560 H120Z" fill="#d77a61"/>
+  <path d="M165 260 C195 185 265 185 295 260Z M355 260 C390 170 460 170 495 260Z M560 260 C595 170 665 170 700 260Z M765 260 C795 185 865 185 895 260Z" fill="#c86652"/>
+  <rect x="200" y="360" width="85" height="200" rx="42" fill="#5e3341"/>
+  <rect x="382" y="335" width="100" height="225" rx="50" fill="#5e3341"/>
+  <rect x="558" y="335" width="100" height="225" rx="50" fill="#5e3341"/>
+  <rect x="735" y="360" width="85" height="200" rx="42" fill="#5e3341"/>
+  <path d="M0 560 L1000 560 L1000 640 L0 640Z" fill="#e8b482"/>
+</svg>

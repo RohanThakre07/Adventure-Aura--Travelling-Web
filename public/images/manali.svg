@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" role="img" aria-label="Manali mountains">
+  <rect width="1000" height="640" fill="#cfefff"/>
+  <circle cx="820" cy="120" r="70" fill="#ffe28a"/>
+  <path d="M0 440 190 190 330 420 510 120 770 450 900 250 1000 390 1000 640 0 640Z" fill="#244b65"/>
+  <path d="M190 190 260 305 330 420 240 350Z M510 120 615 280 770 450 610 345Z M900 250 960 335 1000 390 930 350Z" fill="#f4fbff"/>
+  <path d="M0 510 C230 450 460 515 680 545 C820 565 910 520 1000 500 L1000 640 L0 640Z" fill="#2f7b55"/>
+</svg>
