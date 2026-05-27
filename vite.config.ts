@@ -12,6 +12,9 @@ export default defineConfig(() => {
       },
     },
     server: {
+      headers: {
+        'Cache-Control': 'no-store',
+      },
       hmr: process.env.DISABLE_HMR !== 'true',
       watch: process.env.DISABLE_HMR === 'true' ? null : {},
     },

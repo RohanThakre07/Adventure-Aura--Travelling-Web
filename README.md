@@ -9,6 +9,8 @@ Adventure Aura is a travel website for discovering destinations, exploring tour 
 - Adventure service highlights
 - Image-rich layout for travel packages and experiences
 - React and Vite frontend
+- Local project images stored in `public/images`
+- No runtime dependency on remote image or font CDNs
 
 ## Tech Stack
 

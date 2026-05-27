@@ -253,7 +253,7 @@ export default function App() {
               color: '#ffffff',
               fontSize: '2.4rem',
               fontWeight: 900,
-              fontFamily: '"Outfit", sans-serif',
+              fontFamily: 'Arial, Helvetica, sans-serif',
               lineHeight: 1,
               display: 'block'
             }}>A</span>
@@ -264,7 +264,7 @@ export default function App() {
             fontWeight: 800,
             textTransform: 'none',
             letterSpacing: '0.12rem',
-            fontFamily: '"Outfit", sans-serif'
+            fontFamily: 'Arial, Helvetica, sans-serif'
           }}>AdventureAura.com</span>
         </a>
         
@@ -403,9 +403,9 @@ export default function App() {
           id="category-container"
         >
           {[
-            { id: 1, img: "/images/bungee.jpeg", alt: "Bungee Jumping", title: "bungee jump", desc: "Bungee jumping is an activity that involves a person jumping from a great height while connected to a large elastic cord.", link: "https://en.wikipedia.org/wiki/Bungee_jumping" },
-            { id: 2, img: "/images/zipline.jpeg", alt: "Zip Lines", title: "zip lines", desc: "A zip-line, zip line, zip-wire, or flying fox is a pulley suspended on a cable, usually made of stainless steel, mounted on a slope.", link: "https://en.wikipedia.org/wiki/Zip_line" },
-            { id: 3, img: "/images/canoeing.jpeg", alt: "Canoeing", title: "Canoeing", desc: "Canoeing is an activity which involves paddling a canoe with a single-bladed paddle.", link: "https://en.wikipedia.org/wiki/Canoeing" }
+            { id: 1, img: "/images/bungee.jpeg", alt: "Bungee Jumping", title: "bungee jump", desc: "Bungee jumping is an activity that involves a person jumping from a great height while connected to a large elastic cord." },
+            { id: 2, img: "/images/zipline.jpeg", alt: "Zip Lines", title: "zip lines", desc: "A zip-line, zip line, zip-wire, or flying fox is a pulley suspended on a cable, usually made of stainless steel, mounted on a slope." },
+            { id: 3, img: "/images/canoeing.jpeg", alt: "Canoeing", title: "Canoeing", desc: "Canoeing is an activity which involves paddling a canoe with a single-bladed paddle." }
           ].map((cat) => (
             <motion.div 
               key={cat.id} 
@@ -419,7 +419,7 @@ export default function App() {
               <img src={cat.img} alt={cat.alt} referrerPolicy="no-referrer" />
               <h3>{cat.title}</h3>
               <p>{cat.desc}</p>
-              <a href={cat.link} target="_blank" rel="noreferrer" className="btn" id={`cat-btn-${cat.id}`}>read more</a>
+              <a href="#packages" onClick={(e) => { e.preventDefault(); scrollToSection('packages'); }} className="btn" id={`cat-btn-${cat.id}`}>read more</a>
             </motion.div>
           ))}
         </motion.div>
@@ -443,7 +443,7 @@ export default function App() {
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             className="text-center mb-8 -mt-4 text-xl" 
-            style={{ fontFamily: 'Poppins', fontSize: '1.6rem' }} 
+            style={{ fontFamily: 'Arial, Helvetica, sans-serif', fontSize: '1.6rem' }} 
             id="search-feedback"
           >
             Found {filteredPackages.length} packages matching your query.{' '}
@@ -547,7 +547,7 @@ export default function App() {
               transition={{ type: "spring", stiffness: 350, damping: 28 }}
               className="bg-white rounded-3xl shadow-2xl max-w-4xl w-full relative overflow-hidden"
               style={{ 
-                fontFamily: 'Poppins',
+                fontFamily: 'Arial, Helvetica, sans-serif',
                 maxHeight: '90vh',
                 display: 'flex',
                 flexDirection: 'column',
@@ -828,7 +828,7 @@ export default function App() {
               initial={{ y: -10, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               className="bg-green-50 border border-green-200 p-6 rounded-2xl mb-6 text-center max-w-md mx-auto"
-              style={{ fontFamily: 'Poppins' }}
+              style={{ fontFamily: 'Arial, Helvetica, sans-serif' }}
               id="contact-success-panel"
             >
               <Send className="text-green-600 w-12 h-12 mb-3 mx-auto" />
@@ -935,8 +935,8 @@ export default function App() {
 
           <div className="box" id="footer-social">
             <h3>follow us</h3>
-            <a href="https://www.facebook.com/AdventureAura" target="_blank" rel="noreferrer"> <Facebook className="inline-block w-4 h-4 mr-2 align-middle text-green-700" /> facebook </a>
-            <a href="https://www.instagram.com/AdventureAura" target="_blank" rel="noreferrer"> <Instagram className="inline-block w-4 h-4 mr-2 align-middle text-green-700" /> instagram </a>
+            <a href="#" onClick={(e) => e.preventDefault()}> <Facebook className="inline-block w-4 h-4 mr-2 align-middle text-green-700" /> facebook </a>
+            <a href="#" onClick={(e) => e.preventDefault()}> <Instagram className="inline-block w-4 h-4 mr-2 align-middle text-green-700" /> instagram </a>
           </div>
         </div>
         <div className="credit" id="footer-credit">
