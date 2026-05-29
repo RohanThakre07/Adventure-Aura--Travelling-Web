@@ -271,9 +271,9 @@ export default function App() {
         <nav className={`navbar ${isNavbarActive ? 'active' : ''}`} id="app-navbar">
           <div id="nav-close" className="flex items-center justify-center cursor-pointer" onClick={() => setIsNavbarActive(false)}><X style={{ width: '1em', height: '1em' }} /></div>
           <a href="#home" onClick={(e) => { e.preventDefault(); setIsNavbarActive(false); scrollToSection('home'); }}>HOME</a>
-          <a href="#category" onClick={(e) => { e.preventDefault(); setIsNavbarActive(false); scrollToSection('category'); }}>ABOUT US</a>
-          <a href="#packages" onClick={(e) => { e.preventDefault(); setIsNavbarActive(false); scrollToSection('packages'); }}>SERVICE</a>
-          <a href="#packages" onClick={(e) => { e.preventDefault(); setIsNavbarActive(false); scrollToSection('packages'); }}>INFO</a>
+          <a href="#category" onClick={(e) => { e.preventDefault(); setIsNavbarActive(false); scrollToSection('category'); }}>ADVENTURES</a>
+          <a href="#packages" onClick={(e) => { e.preventDefault(); setIsNavbarActive(false); scrollToSection('packages'); }}>PACKAGES</a>
+          <a href="#packages" onClick={(e) => { e.preventDefault(); setIsNavbarActive(false); scrollToSection('packages'); }}>BOOKING</a>
           <a href="#contact" onClick={(e) => { e.preventDefault(); setIsNavbarActive(false); scrollToSection('contact'); }}>CONTACT US</a>
         </nav>
 
@@ -797,7 +797,7 @@ export default function App() {
                     </div>
 
                     <p className="text-gray-400 text-[1rem] text-center mb-6" style={{ textTransform: 'none' }}>
-                      *A receipt with itinerary details was dispatched to <span className="font-semibold text-gray-600">rohanthakre1342003@gmail.com</span>
+                      *This is a frontend demo receipt. No payment or email is sent from this project.
                     </p>
 
                     <button 
@@ -834,7 +834,7 @@ export default function App() {
               <Send className="text-green-600 w-12 h-12 mb-3 mx-auto" />
               <h4 style={{ fontSize: '1.8rem' }} className="font-bold text-gray-800 mb-1">Message Sent!</h4>
               <p style={{ fontSize: '1.3rem' }} className="text-gray-600 mb-4">
-                Thank you for contacting us. Our travel team will reply to your inquiry shortly. We have also emailed a details copy to you.
+                Thank you for contacting us. This frontend demo has captured the message state locally.
               </p>
               <button 
                 onClick={() => setContactSubmitted(false)}
