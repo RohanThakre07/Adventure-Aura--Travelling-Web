@@ -31,7 +31,7 @@ const PACKAGES: TravelPackage[] = [
     id: "manali",
     name: "Manali Package",
     image: "/images/manali.jpeg",
-    description: "Kullu Manali Shimla has always been a very popular destination for the old, young travelers as well as newly married couples who look for cheapest Manali tour packages & Manali Honeymoon Packages to experience the perfect solitude and calmness at its best.",
+    description: "Kullu, Manali, and Shimla are popular destinations for travelers and newly married couples looking for scenic mountains, calm weather, sightseeing, and affordable tour packages.",
     priceString: "Rs 5,999 - Rs 8,999",
     priceVal: 5999,
     features: ["Sightseeing", "Luxury Stay", "Adventure Sports"]
@@ -52,7 +52,7 @@ const PACKAGES: TravelPackage[] = [
     description: "Boasting cultural diversity and rich heritage, Delhi is home to several temples, tombs, gardens, forts, museums, markets and more. We take you to some of the best spots in the city. Pick the best packages from here and enjoy the tour of Delhi with guide.",
     priceString: "Rs 2,999 - Rs 8,999",
     priceVal: 2999,
-    features: ["Metro Passes", "Local Culinary Test", "Historic Walks"]
+    features: ["Metro Passes", "Local Culinary Taste", "Historic Walks"]
   },
   {
     id: "jaipur",
@@ -61,7 +61,7 @@ const PACKAGES: TravelPackage[] = [
     description: "We organise Jaipur & Rajasthan tours that offer incredible attractions like Forts and Palaces, Deserts, Traditional Villages, colorful cattle fairs, sacred places, camel safaris, beautiful lakes, hill stations and the people.",
     priceString: "Rs 11,999 - Rs 15,999",
     priceVal: 11999,
-    features: ["Fort Exploration", "Royal Palace Resort", "Cattle Fair Vis"]
+    features: ["Fort Exploration", "Royal Palace Resort", "Cattle Fair Visits"]
   },
   {
     id: "kerala",
@@ -76,7 +76,7 @@ const PACKAGES: TravelPackage[] = [
     id: "darjeeling",
     name: "Darjeeling Package",
     image: "/images/darjeeling.jpeg",
-    description: "A trip to Darjeeling will include a ride on the famous Himalayan Railway, a visit to Tiger Hill, or a tour of the stunning landscaped gardens here. Activities like hiking and boating. Do not miss out on a trip to Darjeeling Is famous Mall Road.",
+    description: "A trip to Darjeeling can include a ride on the famous Himalayan Railway, a visit to Tiger Hill, landscaped gardens, hiking, boating, and time around the popular Mall Road.",
     priceString: "Rs 20,000 - Rs 25,000",
     priceVal: 20000,
     features: ["Toy Train Ride", "Tiger Hill Sunrise", "Tea Leaf Plucking"]
@@ -928,7 +928,7 @@ export default function App() {
 
           <div className="box" id="footer-contacts">
             <h3>contact info</h3>
-            <a href="tel:+911111111111"> <Phone className="inline-block w-4 h-4 mr-2 align-middle text-green-700" /> +91 1111111111 </a>
+            <a href="#contact" onClick={(e) => { e.preventDefault(); scrollToSection('contact'); }}> <Phone className="inline-block w-4 h-4 mr-2 align-middle text-green-700" /> Travel inquiry form </a>
             <a href="mailto:rohanthakre1342003@gmail.com"> <Mail className="inline-block w-4 h-4 mr-2 align-middle text-green-700" /> rohanthakre1342003@gmail.com </a>
             <a href="#" onClick={(e) => e.preventDefault()}> <MapPin className="inline-block w-4 h-4 mr-2 align-middle text-green-700" /> Pune, India - 411028 </a>
           </div>
